@@ -10,16 +10,14 @@ using System.Windows.Forms;
 
 namespace ContactsAppUI
 {
-    public partial class Form1 : Form
+    /// <summary>
+    /// Форма, показывающая информацию о приложении
+    /// </summary>
+    public partial class AboutProgramForm : Form
     {
-        public Form1()
+        public AboutProgramForm()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
