@@ -65,15 +65,14 @@ namespace ContactsAppUI
             catch (Exception exc)
             {
                 MessageBox.Show(exc.Message);
-            }
-            /// <summary>
-            /// Обработчик события появления этой формы
-            /// </summary>
-            /// <param name="sender"></param>
-            /// <param name="e"></param>
-            
+            }           
         }
 
+        /// <summary>
+        /// Обработчик события появления этой формы
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AddEditContactForm_Shown(object sender, EventArgs e)
         {
             if (CurrentContact != null)
